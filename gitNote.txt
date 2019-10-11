@@ -25,7 +25,8 @@
 	 将文件推送到gitHub上
  	git push -u origin master
 
-
+11、克隆项目 
+	git  clone  仓库路径.git
 
 	
 
