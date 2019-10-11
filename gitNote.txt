@@ -10,8 +10,22 @@
 
 5、运行 git log 来查看我们提交过的版本  
 
-6、运行 $ git reset --hard Head^  来退回上一个版本  要退回几个版本 就几个^ 符号
+6、运行 $ git reset --hard Head^  来退回上一个版本  要退回几个版本 就几个^ 符号	
+	$ git reset --hard  哈希值前面6位  退回你想要的版本 
+7、运行 git reflog    查看所有的版本号 
+
+8、git checkout -- 文件  丢弃工作区的修改 
+	两种状态：  没有推送值暂存区 ，就退回到上一个版本 
+		   推送到暂存区，就退回到暂存区以前那个版本 
+9、 rm 文件名 是在工作区删除文件 
+      git rm 文件名 确定要在git仓库中删除文件 
+
+10、 	链接远程gitHub上的仓库   git remote add origin  仓库路径
+	git remote add origin https://github.com/myyangyue/myStudyGit.git
+	 将文件推送到gitHub上
+ 	git push -u origin master
 
 
 
+	
 
